@@ -1,0 +1,118 @@
+<resources>
+    <!-- Strings related to Main page -->
+    <string name="app_name">Wakie Wakie</string>
+    <string name="no_alarm_text">There are no alarms set!</string>
+    <string name="week_day_monday">Monday</string>
+    <string name="week_day_tuesday">Tuesday</string>
+    <string name="week_day_wednesday">Wednesday</string>
+    <string name="week_day_thursday">Thursday</string>
+    <string name="week_day_friday">Friday</string>
+    <string name="week_day_saturday">Saturday</string>
+    <string name="week_day_sunday">Sunday</string>
+    <string name="repeat_tomorrow">Tomorrow</string>
+    <string name="repeat_today">Today</string>
+    <string name="repeat_every_day">Every Day</string>
+    <string name="repeat_work_days">Work days</string>
+    <string name="repeat_weekend">Weekend</string>
+    <string name="delete_alarm">Alarm was deleted!</string>
+    <string name="alert_title_room">Chose the name of the room</string>
+    <string name="alert_room_hint">Bathroom</string>
+    <string name="alert_room_save">Create Qr Code</string>
+    <string name="alert_qr_saved">Qr code saved</string>
+    <string name="alert_qr_not_saved">Qr code not saved!</string>
+    <string name="toast_need_qr_code">You need to create a Qr code before creating an alarm!</string>
+
+
+    <!-- Strings related to Settings page -->
+    <string name="title_activity_settings">Settings</string>
+    <string name="prevent_phone_off">Prevent phone turn off when ringing</string>
+    <string name="prevent_app_uninstall">Prevent app uninstall</string>
+    <string name="disable_alarm_before_rings_text">Prevent disabling alarm before it rings</string>
+    <string name="language_text">Language</string>
+    <string name="statistics_text">Statistics</string>
+    <string name="nightmode_text">Night Mode</string>
+
+    <!-- Strings related to Add Alarm page -->
+    <string name="title_activity_add_alarm">New Alarm</string>
+    <string name="text_vibrate">Vibration</string>
+    <string name="text_brightness_change">Gradual brightness change</string>
+    <string name="text_flash">Flash</string>
+    <string name="text_snoze">Snooze</string>
+    <string name="text_ringtone">Ringtone</string>
+    <string name="text_repeat">Repeat:</string>
+    <string name="text_Monday">M</string>
+    <string name="text_Tuesday">T</string>
+    <string name="text_Wednesday">W</string>
+    <string name="text_Thursday">T</string>
+    <string name="text_Friday">F</string>
+    <string name="text_Saturday">S</string>
+    <string name="text_Sunday">S</string>
+    <string name="text_select_ringtone">Select ringtone</string>
+    <string name="text_set_ringtone">Set Ringtone</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="toast_saved_alarm">Alarm saved successfully</string>
+
+    <!-- Strings related to Login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to Profile -->
+    <string name="title_activity_profile">Profile</string>
+    <string name="text_top_score">Top Score</string>
+    <string name="text_achievements">Achievements</string>
+    <string name="text_friends">Friends</string>
+    <string name="text_average_time_to_wake_up">Average Time Taken To Wake Up</string>
+    <string name="text_average_sleep_time">Average Wake Up Time</string>
+    <string name="text_points">Points</string>
+    <string name="text_Username">Username</string>
+    <string name="photo_dialog_title">Select Action</string>
+    <string name="photo_dialog_gallery">Select photo from gallery</string>
+
+    <!-- Strings related to Achievements -->
+    <string name="title_activity_achievements">Achievements</string>
+    <string name="toast_new_achivement">New achievement unlocked!</string>
+
+    <!-- Strings related to Permissions -->
+    <string name="toast_permission_read_external_storage">Permission denied to access External storage</string>
+    <string name="toast_permission_camera">Permission denied to access Camera</string>
+
+    <!-- Strings related to FriendsActivity -->
+    <string name="friends_title">Friends</string>
+    <string name="friends_invite">Invite</string>
+    <string name="friends_friend">Friend</string>
+    <string name="friends_invitation_message">
+        Hey, install WakieWakie and we will have fun competing to see who wakes up better!
+        Also with this alarm you are guaranteed to wake up :)
+    </string>
+
+    <!-- Strings related to AverageSleepTime -->
+    <string name="sleep_time_title">Average Sleep Time</string>
+    <string name="statistics_enabled_sleep">The graph shows the time you woke up for the past 7 days </string>
+
+    <!-- Strings related to AverageWakeUpTime -->
+    <string name="wake_up_time_title">Average Wake Up Time</string>
+    <string name="statistics_disabled">To view your statistics you need to enable the option in the settings</string>
+    <string name="statistics_enabled_wakeup">The graph shows the time you took to wake up in seconds for the past 7 days </string>
+
+    <!-- Strings related to SampleDeviceAdminReceiver -->
+    <string name="device_admin_disabled">Device Admin disabled</string>
+    <string name="device_admin_enabled">Device Admin enabled</string>
+    <string name="device_admin_disabled_request">Device Admin disable request</string>
+
+    <!-- Strings related to CameraActivity -->
+    <string name="btn_text_snooze">Snooze</string>
+    <string name="btn_text_turn_off">Scan QR</string>
+    <string name="error_message_camera_no_permission">To use this alarm you need to give camera permissions</string>
+    <string name="qr_code_location">Go scan que QR code in the</string>
+    <string name="qr_code_wrong">You scanned the wrong Qr code!</string>
+
+
+</resources>

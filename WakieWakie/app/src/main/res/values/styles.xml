@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorGreenFill</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorGreenFill</item>
+        <item name="backgroundcolor">@color/backgroundColorWhite</item>
+        <item name="textcolor">@color/textColorBlack</item>
+        <item name="buttoncolorfill">@color/colorGreenFill</item>
+        <item name="buttoncoloroutline">@color/colorGreenOutline</item>
+        <item name="boxcolor">@color/backgroundColorWhite</item>
+        <item name="actionbar">@color/colorGreenFill</item>
+        <item name="button">@drawable/roundedbutton</item>
+        <item name="android:timePickerMode">@style/MyTimePickerWidgetStyle</item>
+    </style>
+
+    <!-- Dark theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkbox</item>
+        <item name="colorPrimaryDark">@color/backgroundColorBlack</item>
+        <item name="colorAccent">@color/colorBlueOutline</item>
+        <item name="backgroundcolor">@color/backgroundColorBlack</item>
+        <item name="textcolor">@color/textColorWhite</item>
+        <item name="buttoncolorfill">@color/colorBlueFill</item>
+        <item name="buttoncoloroutline">@color/colorBlueOutline</item>
+        <item name="boxcolor">@color/darkbox</item>
+        <item name="actionbar">@color/backgroundColorBlack</item>
+        <item name="button">@drawable/roundedbuttondark</item>
+        <item name="android:timePickerMode">@style/MyTimePickerWidgetStyle</item>
+    </style>
+
+
+
+
+    <style name="MyTimePickerWidgetStyle" parent="@android:style/Widget.Material.TimePicker">
+        <item name="android:headerBackground">#ffe082</item>
+        <item name="android:numbersTextColor">#b71c1c</item>
+        <item name="android:numbersInnerTextColor">#f44336</item>
+        <item name="android:numbersSelectorColor">#33691e</item>
+        <item name="android:numbersBackgroundColor">#ef9a9a</item>
+        <item name="android:amPmTextColor">#9c27b0</item>
+        <item name="android:colorControlNormal">#9c27b0</item>
+    </style>
+
+
+</resources>
+
+
+
+
+    <!-- Base application theme.
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+Customize your theme here.
+<item name="colorPrimary">@color/colorPrimary</item>
+<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+<item name="colorAccent">@color/colorAccent</item>
+</style>
+    -->

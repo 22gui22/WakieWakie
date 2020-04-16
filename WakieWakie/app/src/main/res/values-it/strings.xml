@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Strings related to Main page -->
+    <string name="app_name">Wakie Wakie</string>
+    <string name="no_alarm_text">Nessuna sveglia impostata!</string>
+    <string name="week_day_monday">Lunedi</string>
+    <string name="week_day_tuesday">Martedi</string>
+    <string name="week_day_wednesday">Mercoledi</string>
+    <string name="week_day_thursday">Giovedi</string>
+    <string name="week_day_friday">Venerdi</string>
+    <string name="week_day_saturday">Sabato</string>
+    <string name="week_day_sunday">Domenica</string>
+    <string name="repeat_tomorrow">Domani</string>
+    <string name="repeat_today">Oggi</string>
+    <string name="repeat_every_day">Tutti i giorni</string>
+    <string name="repeat_work_days">Giorni lavorativi</string>
+    <string name="repeat_weekend">Weekend</string>
+    <string name="delete_alarm">La sveglia e stata cancellata!</string>
+    <string name="alert_title_room">Scegliere il nome della stanza</string>
+    <string name="alert_room_hint">Bagno</string>
+    <string name="alert_room_save">Creare un Qr code</string>
+    <string name="alert_qr_saved">Qr code salvato</string>
+    <string name="alert_qr_not_saved">Il Qr code non e stato salvato!</string>
+
+
+    <!-- Strings related to Settings page -->
+    <string name="title_activity_settings">Impostazioni</string>
+    <string name="prevent_phone_off">Impedire lo spegnimento del telefono mentre suona</string>
+    <string name="prevent_app_uninstall">Impedire la disinstallazione della app</string>
+    <string name="disable_alarm_before_rings_text">Impedire la disattivazione della sveglia prima che suoni</string>
+    <string name="language_text">Lingua</string>
+    <string name="statistics_text">Statistiche</string>
+    <string name="nightmode_text">Night Mode</string>
+
+    <!-- Strings related to Add Alarm page -->
+    <string name="title_activity_add_alarm">Nuova sveglia</string>
+    <string name="text_vibrate">Vibrazione</string>
+    <string name="text_brightness_change">Cambiamento graduale della illuminazione</string>
+    <string name="text_flash">Flash</string>
+    <string name="text_snoze">Posponi la sveglia</string>
+    <string name="text_ringtone">Suoneria</string>
+    <string name="text_repeat">Ripeti:</string>
+    <string name="text_Monday">L</string>
+    <string name="text_Tuesday">M</string>
+    <string name="text_Wednesday">M</string>
+    <string name="text_Thursday">G</string>
+    <string name="text_Friday">V</string>
+    <string name="text_Saturday">S</string>
+    <string name="text_Sunday">D</string>
+    <string name="text_select_ringtone">Selezionare una suoneria</string>
+    <string name="text_set_ringtone">Impostare suoneria</string>
+    <string name="text_cancel">Cancellare</string>
+    <string name="toast_saved_alarm">Sveglia salvata con successo</string>
+
+    <!-- Strings related to Login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Accedi o registrati</string>
+    <string name="action_sign_in_short">Accedi</string>
+    <string name="error_invalid_email">Indirizzo email non valido</string>
+    <string name="error_invalid_password">La password inserita e troppo breve</string>
+    <string name="error_incorrect_password">La password inserita non e corretta</string>
+    <string name="error_field_required">Campo obbligatorio</string>
+    <string name="permission_rationale">"Permesso di accesso ai contatti richiesto al fine di consentire il completamento delle email."</string>
+    <string name="title_activity_login">Accedi</string>
+
+    <!-- Strings related to Profile -->
+    <string name="title_activity_profile">Profilo</string>
+    <string name="text_top_score">Miglior risultato</string>
+    <string name="text_achievements">Obiettivi raggiunti</string>
+    <string name="text_friends">Amici</string>
+    <string name="text_average_time_to_wake_up">Tempo medio necessario prima del risveglio</string>
+    <string name="text_average_sleep_time">Ora media di addormentamento</string>
+    <string name="text_points">Punteggio</string>
+    <string name="text_Username">Username</string>
+    <string name="photo_dialog_title">Selezionare una azione</string>
+    <string name="photo_dialog_gallery">Selezionare una foto dalla galleria</string>
+
+    <!-- Strings related to Achievements -->
+    <string name="title_activity_achievements">Obiettivi raggiunti</string>
+    <string name="toast_new_achivement">Nuovo obiettivo sbloccato!</string>
+
+    <!-- Strings related to Permissions -->
+    <string name="toast_permission_read_external_storage">Permesso di accesso alla memoria esterna negato</string>
+    <string name="toast_permission_camera">Permesso di accesso alla fotocamera negato</string>
+
+    <!-- Strings related to FriendsActivity -->
+    <string name="friends_title">Amici</string>
+    <string name="friends_invite">Invita</string>
+    <string name="friends_friend">Amici</string>
+    <string name="friends_invitation_message">
+        Hey, installa WakieWakie, cosi possiamo divertirci e fare a gara per vedere chi fa prima a svegliarsi!
+	Senza contare che grazie a questa sveglia e garantito che ti alzi :)
+    </string>
+
+    <!-- Strings related to AverageSleepTime -->
+    <string name="sleep_time_title">Durata media del sonno</string>
+    <string name="statistics_enabled_sleep">Il grafico mostra l orario di risveglio per gli ultimi 7 giorni </string>
+
+    <!-- Strings related to AverageWakeUpTime -->
+    <string name="wake_up_time_title">Ora media di risveglio</string>
+    <string name="statistics_disabled">Per visualizzare le tue statistiche occorre abilitare l opzione apposita nelle impostazioni</string>
+    <string name="statistics_enabled_wakeup">Il grafico mostra, in secondi, il tempo necessario per il risveglio per gli ultimi 7 giorni </string>
+
+    <!-- Strings related to SampleDeviceAdminReceiver -->
+    <string name="device_admin_disabled">Admin del dispositivo disabilitato</string>
+    <string name="device_admin_enabled">Admin del dispositivo abilitato</string>
+    <string name="device_admin_disabled_request">Richiedere disabilitazione dell Admin del dispositivo</string>
+
+    <!-- Strings related to CameraActivity -->
+    <string name="btn_text_snooze">Posponi la sveglia</string>
+    <string name="btn_text_turn_off">Scansiona il QR code</string>
+    <string name="error_message_camera_no_permission">Per utilizzare questa sveglia occorre fornire l autorizzazione alla fotocamera</string>
+    <string name="qr_code_location">Seleziona QR code in</string>
+    <string name="qr_code_wrong">Hai scansionato un Qr code errato!</string>
+    <string name="toast_need_qr_code">Occorre creare un Qr code prima di creare una sveglia!</string>
+
+</resources>

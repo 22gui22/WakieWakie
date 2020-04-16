@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="disable_alarm_before_rings">
+        <item>Off</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 hour</item>
+    </string-array>
+    <string-array name="languages_array">
+        <item>English</item>
+        <item>Portuguese</item>
+    </string-array>
+
+    <string-array name="snoze_array">
+        <item>Off</item>
+        <item>5 min</item>
+        <item>10 min</item>
+        <item>15 min</item>
+    </string-array>
+
+    <string-array name="achievements_array">
+        <item>Set an Alarm</item>
+        <item>Woke Up</item>
+        <item>Edit Settings</item>
+        <item>Set an Alarm 5X</item>
+        <item>Woke Up 5X</item>
+        <item>Set an Alarm 10X</item>
+        <item>Woke Up 10X</item>
+        <item>Set an Alarm 30X</item>
+        <item>Woke Up 30X</item>
+        <item>Set an Alarm 50X</item>
+        <item>Woke Up 50X</item>
+    </string-array>
+
+    <array name="medals">
+        <item>@color/colorbronze</item>
+        <item>@color/colorbronze</item>
+        <item>@color/colorbronze</item>
+        <item>@color/colorsilver</item>
+        <item>@color/colorsilver</item>
+        <item>@color/colorgold</item>
+        <item>@color/colorgold</item>
+        <item>@color/colordiamond</item>
+        <item>@color/colordiamond</item>
+        <item>@color/colorplatinum</item>
+        <item>@color/colorplatinum</item>
+    </array>
+</resources>
